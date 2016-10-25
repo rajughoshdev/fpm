@@ -1,7 +1,7 @@
 <?php 
 
-echo "hello world";
+require('./vendor/autoload.php');
 
-echo "another text"
-
+$valPass = new VPassword();
+var_dump($valPass->validLength('1234'));
 ?>
